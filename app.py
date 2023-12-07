@@ -1,12 +1,14 @@
 import streamlit as st
 
-st.image('inputs/Home.png')
 
+#Set the website layouts
+st.set_page_config(
+    page_title = 'RAUL Y ZANYA',
+    layout = "wide",
+    initial_sidebar_state = "expanded"
+)
+
+st.image('inputs/Home.png')
 st.title('RAUL Y ZANYA')
 st.markdown('lol xd mafia')
 
-# [theme]
-# base="light"
-# primaryColor="#879287"
-# backgroundColor="#8efbac"
-# secondaryBackgroundColor="#a6abb5"
